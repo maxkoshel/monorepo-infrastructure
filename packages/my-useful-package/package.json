@@ -1,0 +1,7 @@
+{
+  "name": "@monorepo/my-useful-package",
+  "version": "0.0.0",
+  "main": "src/index.js",
+  "description": "My useful package",
+  "private": true
+}
