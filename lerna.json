@@ -1,0 +1,31 @@
+{
+  "lerna": "3.16.4",
+  "npmClient": "yarn",
+  "useWorkspaces": true,
+  "packages": [
+    "packages/*"
+  ],
+  "command": {
+    "add": {
+      "exact": true
+    },
+    "bootstrap": {
+      "ci": false
+    },
+    "publish": {
+      "ignoreChanges": [
+        "**/*.test.js",
+        "**/test{,s}/**",
+        "**/*.md"
+      ],
+      "allowBranch": "master",
+      "exact": true,
+      "verifyAccess": false,
+      "verifyRegistry": false,
+      "message": "build(release): publish"
+    }
+  },
+  "conventionalCommits": true,
+  "independent": true,
+  "version": "independent"
+}
