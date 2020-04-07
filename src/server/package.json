@@ -1,0 +1,10 @@
+{
+  "name": "server",
+  "version": "0.0.0",
+  "main": "src/index.js",
+  "description": "Web server",
+  "private": true,
+  "dependencies": {
+    "@monorepo/my-userful-package": "0.0.0"
+  }
+}
