@@ -1,0 +1,15 @@
+{
+  "name": "monorepo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/maxkoshel/monorepo-infrastructure.git",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "src/*"
+  ],
+  "devDependencies": {
+    "lerna": "3.16.4"
+  }
+}
